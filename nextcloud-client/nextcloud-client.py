@@ -10,7 +10,7 @@ class subinfo(info.infoclass):
             self.options.dynamic.registerOption("sparkleLibPath", "")
 
     def setTargets(self):
-        self.svnTargets["master"] = "[git]https://github.com/nextcloud/desktop"
+        self.svnTargets["master"] = "[git]https://github.com/stro/nextcloud-desktop"
 
         self.description = "Nextcloud Desktop Client"
         self.displayName = "Nextcloud"
